@@ -1,0 +1,142 @@
+nav {
+    background-image: url("../imgs/nav-final.jpg");
+    background-repeat: no-repeat;
+    min-width: 100vw;
+    font-family : HWT Artz, sans-serif;
+    font-size : 21px;
+    color : #FFFFFF;
+    background-color: rgba(255,6,0,0.84);
+
+}
+
+.navbar-brand {
+    padding: 0;
+}
+.navbar-nav {
+    padding-right: 20px;
+    margin-top: 55px;
+    float: right;
+}
+button.navbar-toggler:focus {
+    outline: 1px none;
+}
+a {
+    color: white;
+}
+a:hover {color: yellow}
+.jumbotron {
+    background-color: rgba(255,6,0,0.84);
+    border-radius: 0;
+}
+body {
+    color: white;
+    font-family : HWT Artz, sans-serif;
+    width:100vw;
+    overflow-x: hidden;
+
+}
+p {
+    font-size: 18px;
+}
+h1 {
+    text-shadow: -8px 8px 22px black;
+    font-size: 72px;
+}
+h2 {
+    font-size: 48px;
+    text-shadow: -8px 8px 22px black;
+}
+h3{
+    font-size: 42px;
+}
+h4 {
+    font-size: 30px;
+}
+h5  {
+    font-size: 20px;
+}
+.noshadow {
+    text-shadow: none;
+
+}
+.rale {
+    font-family : Abril Fatface, serif;
+    letter-spacing : 2.9px;
+    color : #FFFFFF;
+}
+.jumbotron a {
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 10px 40px;
+    height: 100%;
+}
+.jumbotron a:hover {
+    color: red;
+    background-color: whitesmoke;
+    border: 1px solid white;
+
+
+}
+.splash {
+    margin-bottom: 200px;
+}
+.splash-bottom {
+    margin-bottom: 100px;
+}
+.navbar-toggler-icon {
+background-image: url("../imgs/toggler.svg")}
+
+.about {
+    color: black;
+    height: 60vh;
+}
+.about p {
+    color: black;
+}
+.customers {
+color: black;
+    padding-left: 40px;
+    height:50vh;
+    padding-top: 4vh;
+    margin-bottom:10vh;
+ }
+.customers h2 {
+    text-shadow: none;
+}
+.contact{
+    background-color: rgba(255,6,0,0.84);
+    height:40vh;
+}
+.menu-item {
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-bottom:10px;
+
+}
+.menu{}
+@media (max-width: 767.98px) {
+    h2 {
+        font-size: 36px ;
+    }
+    h4 {
+        font-size: 26px;
+    }
+.customers{
+    margin-bottom: 240px;
+}
+}
+@media (max-width: 567.98px) {
+
+    .customers{
+        margin-bottom: 240px;
+    }
+}
+.bg-color {
+    background-color: rgba(255,6,0,0.84);
+}
+.bio-img {
+    max-width: 200px;
+}
+.blk {
+    color: black;
+}
